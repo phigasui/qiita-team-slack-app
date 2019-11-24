@@ -1,0 +1,20 @@
+{
+  "name": "scrapbox_slack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc | node dist/App.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.4.1",
+    "@speee-js/jsx-slack": "^0.12.0",
+    "@types/mongodb": "^3.3.11",
+    "@types/node": "^12.12.11",
+    "@types/request": "^2.48.3",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.3.4",
+    "request": "^2.88.0",
+    "typescript": "^3.7.2"
+  }
+}

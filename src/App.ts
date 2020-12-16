@@ -3,10 +3,7 @@ import { App } from '@slack/bolt'
 import request from 'request'
 
 import MongoDBClient from './lib/MongoDBClient'
-import ArticleModal from './views/ArticleModal'
-import RegistModal from './views/RegistModal'
-import SettingModal from './views/SettingModal'
-
+import { ArticleModal, RegistModal, SettingModal } from './Views'
 
 dotenv.config()
 
